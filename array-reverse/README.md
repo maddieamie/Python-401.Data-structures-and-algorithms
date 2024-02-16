@@ -1,4 +1,4 @@
-# Challenge Title
+# Array-Reverse
 <!-- Description of the challenge -->
 
 Write a function that takes an array
