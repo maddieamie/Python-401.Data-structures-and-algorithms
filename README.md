@@ -6,3 +6,5 @@
 
 [Binary-Search](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/tree/main/array-binary-search)
 
+[Interview 1](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/tree/main/interview)
+
