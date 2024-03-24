@@ -34,4 +34,4 @@ Then, I wrote tests to try to make instances of these codes and ran them. When t
 
 [Code Tests with Pytest](test_linked.py)
 
-![Pytests running](Screenshot%202024-03-24%20at%202.33.32%E2%80%AFPM.png)
+![Pytests running](runningtests.png)
