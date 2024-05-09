@@ -10,4 +10,6 @@
 
 [Linked Lists](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/linked-list/README.md)
 
-[Linked Lists Insertion](working-directory/linked-list-insertions/README.md)
+[Linked Lists Insertion](working-directory/linked_list_insertions/README.md)
+
+[Linked Lists Kth](working-directory/linked_list_kth/README.md)
