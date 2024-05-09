@@ -1,5 +1,5 @@
 import pytest
-from linked_list_insertions import LinkedList2, TargetError
+from linked_list_insertions.linked_list_insertions import LinkedList2, TargetError
 
 
 
