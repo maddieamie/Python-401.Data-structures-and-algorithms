@@ -13,3 +13,5 @@
 [Linked Lists Insertion](working-directory/linked_list_insertions/README.md)
 
 [Linked Lists Kth](working-directory/linked_list_kth/README.md)
+
+[Linked List Zip](working-directory/linked_list_zip/README.md)
