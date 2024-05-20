@@ -17,7 +17,7 @@ class LinkedList2:
         node = self.head
         nodes = []
         while node is not None:
-            nodes.append(node.data)
+            nodes.append(str(node.data))
             node = node.next
         nodes.append("Null")
         return " -> ".join(nodes)

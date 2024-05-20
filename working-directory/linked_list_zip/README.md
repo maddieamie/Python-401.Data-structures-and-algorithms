@@ -12,31 +12,35 @@
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![Code Challenge 7: figjam image, link below](CodeChallenge7.png)
+![Code Challenge 8: figjam image, link below](Code%20Challenge%208.png)
 
-[Figjam Link for Code Challenge 7-- to navigate the image embedded above](https://www.figma.com/board/ezgXSaZoF7Q7zVVj7k77aa/Code-Challenge-7?node-id=0%3A1&t=z4csSQos6fpyNcmL-1)
+[Figjam Link for Code Challenge 8-- to navigate the image embedded above](https://www.figma.com/board/RuhisIY5qCMABhHFUoOD07/Code-Challenge-8?node-id=0%3A1&t=FZKCqSPnCWX1Bq80-1)
 
 
 
 ## Approach & Efficiency
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
-For all methods, the time big O for these is the length of the linked list that you must traverse to find the target node, or the last node of the list, so : O(n), where n is the length of the linked list. The space is still O(1), since all the nodes still exist in memory, but that memory is dynamic, so it need not take up a larger chunk of memory at once. 
+In my code, I used one `while` loop and then an `if` conditional for each of the linked lists, then had each `if` conditional move across the nodes of both lists. Since my code wanted me to use the first list argument first in the zipping process, I put that one first in the while loop and list2 second. I suppose you could add more conditions. 
+
+**Time: O(n+m)**
+- because you need to traverse both of the linked lists, even though I have it in a nested while loop
+
+**Space: O(n+m)**
+- this accounts for the space needed to store the nodes of the new linked list, which will have a number of nodes equal to the sum of the nodes in the two input lists
 
 ## Solution
 <!-- Show how to run your code, and examples of it in action -->
 
-Terminal command: python3 -m linked_list_kth.linked_list_kth
+Terminal command: python3 -m linked_list_zip.linked_list_zip
 
-![Test code in main module: you can find this in the linked_list_insertions.py file](..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202024-05-09%20at%203.50.01%E2%80%AFPM.png)
-
-![Terminal of code running in main: it returned  A -> B -> C -> D -> E -> Null
-B
-E
-A](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_abb0oY%2FScreenshot%202024-05-09%20at%203.49.14%E2%80%AFPM.png)
-
-
-Terminal command : python3 -m pytest linked_list_kth/
+![Test code in main module: returns list3:  A -> B -> C -> Null
+A -> B -> C -> Null
+list4:  1 -> 2 -> 3 -> Null
+1 -> 2 -> 3 -> Null
+zip_lists: A -> 1 -> B -> 2 -> C -> 3 -> Null](working-directory/linked_list_zip/Working_in_if_name_equals_main.png)
 
 
-![Terminal of tests passing: collected 9 items, 9 passed in pytest](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ltJH7I%2FScreenshot%202024-05-09%20at%203.40.59%E2%80%AFPM.png)
+Terminal command : python3 -m pytest linked_list_zip/
+
+![Terminal of tests passing: collected 6 items, 6 passed in pytest](working-directory/linked_list_zip/Passing_in_terminal.png)
