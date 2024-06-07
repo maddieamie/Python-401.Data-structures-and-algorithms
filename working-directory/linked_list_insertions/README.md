@@ -43,3 +43,8 @@ Terminal command: python3 -m pytest linked_list_insertions/
 
 ![image of console: pytest collected 10 items, 10 passed](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_jGkswI%2FScreenshot%202024-05-09%20at%204.00.27%E2%80%AFPM.png)
 
+### Code Links
+
+
+[Insertions](working-directory/linked_list_insertions/linked_list_insertions.py)
+
