@@ -15,3 +15,5 @@
 [Linked Lists Kth](working-directory/linked_list_kth/README.md)
 
 [Linked List Zip](working-directory/linked_list_zip/README.md)
+
+[Stacks and Queues](working-directory%2Fstacks_and_queues%2FREADME.md)
