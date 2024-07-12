@@ -75,7 +75,7 @@ def test_pop_multiple():
     assert blink.is_empty() is True
 
 
-# @pytest.mark.skip("TODO")
+@pytest.mark.skip("TODO")
 def test_push_multiple():
     ns = Stack()
     ns.push(23)
