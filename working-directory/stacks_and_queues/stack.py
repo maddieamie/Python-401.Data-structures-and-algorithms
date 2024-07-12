@@ -15,7 +15,6 @@ class Stack:
         while node is not None:
             nodes.append(str(node.data))
             node = node.next
-        nodes.append("Null")
         return " -> ".join(nodes)
 
     def __iter__(self):
