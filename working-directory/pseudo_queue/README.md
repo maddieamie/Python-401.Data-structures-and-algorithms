@@ -45,7 +45,7 @@ Terminal command for general main module: python3 -m pseudo_queue.pseudo_queue
 Terminal command for testing in pytest: python3 -m pytest pseudo_queue/
 
 ![Test code in main module: collected 6 items
-pseudo_queue/test_psuedo_queue.py ...... 100%, 6 passed in 0.01s](working-directory/pseudo_queue/Terminal_test_executions.png)
+pseudo_queue/test_pseudo_queue.py ...... 100%, 6 passed in 0.01s](working-directory/pseudo_queue/Terminal_test_executions.png)
 
 ### Code Links
 
