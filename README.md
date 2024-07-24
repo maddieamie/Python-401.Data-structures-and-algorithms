@@ -10,12 +10,12 @@
 
 [Linked Lists](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/linked-list/README.md)
 
-[Linked Lists Insertion](working-directory/linked_list_insertions/README.md)
+[Linked Lists Insertion](python/linked_list_insertions/README.md)
 
-[Linked Lists Kth](working-directory/linked_list_kth/README.md)
+[Linked Lists Kth](python/linked_list_kth/README.md)
 
-[Linked List Zip](working-directory/linked_list_zip/README.md)
+[Linked List Zip](python/linked_list_zip/README.md)
 
 [Stacks and Queues](working-directory%2Fstacks_and_queues%2FREADME.md)
 
-[PseudoQueue](working-directory/pseudo_queue/README.md)
+[PseudoQueue](python/pseudo_queue/README.md)

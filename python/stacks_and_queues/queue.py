@@ -12,7 +12,7 @@ class Queue(LinkedList2):
         self.max_size = 8
 
     def __iter__(self):
-        current_node = self.top
+        current_node = self.front
         while current_node is not None:
             yield current_node
             current_node = current_node.next
@@ -45,7 +45,8 @@ class Queue(LinkedList2):
         dead_node.next = None
         self.size -= 1
 
-        return dead_node.data
+        # return dead_node.data
+        return dead_node
 
     def peek(self) -> Any:
         if self.head is None:
