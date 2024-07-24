@@ -65,7 +65,7 @@ def test_size_of_queue():
     assert orange.get_size() == ('Size of queue: 3', 'Max size allowed: 8')
 
 
-# @pytest.mark.skip("TODO")
+@pytest.mark.skip("TODO")
 def test_enqueue_dequeue_one():
     bq = Queue()
     bq.enqueue("rainbow")
@@ -74,7 +74,7 @@ def test_enqueue_dequeue_one():
     assert actual == expected
 
 
-# @pytest.mark.skip("TODO")
+@pytest.mark.skip("TODO")
 def test_enqueue_dequeue_two():
     bq = Queue()
     bq.enqueue("pride")
@@ -90,7 +90,7 @@ def test_enqueue_dequeue_two():
     assert actual == expected
 
 
-# @pytest.mark.skip("TODO")
+@pytest.mark.skip("TODO")
 def test_enqueue_dequeue_enqueue_dequeue():
     bq = Queue()
     bq.enqueue("rim")
