@@ -35,13 +35,9 @@ For all methods, the time big O for these is the length of the linked list that 
 <!-- Show how to run your code, and examples of it in action -->
 Terminal command: python3 linked_list_insertions.py
 
-![image of console: python3 linked_list_insertions.py  huzzah -> ziggity -> whee -> jamminy -> Null
-huzzah -> ziggity -> whee -> jamminy -> Null
-](..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202024-04-13%20at%205.57.12%E2%80%AFPM.png)
-
 Terminal command: python3 -m pytest linked_list_insertions/
 
-![image of console: pytest collected 10 items, 10 passed](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_jGkswI%2FScreenshot%202024-05-09%20at%204.00.27%E2%80%AFPM.png)
+
 
 ### Code Links
 
