@@ -31,18 +31,7 @@ That being said, when it came to raising my custom error, for the comparison, I 
 
 Terminal command: python3 -m linked_list_kth.linked_list_kth
 
-![Test code in main module: you can find this in the linked_list_insertions.py file](..%2F..%2F..%2F..%2FDesktop%2FScreenshot%202024-05-09%20at%203.50.01%E2%80%AFPM.png)
-
-![Terminal of code running in main: it returned  A -> B -> C -> D -> E -> Null
-B
-E
-A](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_abb0oY%2FScreenshot%202024-05-09%20at%203.49.14%E2%80%AFPM.png)
-
-
 Terminal command : python3 -m pytest linked_list_kth/
-
-
-![Terminal of tests passing: collected 9 items, 9 passed in pytest](..%2F..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2F43%2F54rn3fvx4l9_2f87gblfbccc0000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_ltJH7I%2FScreenshot%202024-05-09%20at%203.40.59%E2%80%AFPM.png)
 
 ### Code Links
 

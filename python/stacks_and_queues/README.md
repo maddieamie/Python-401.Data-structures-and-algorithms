@@ -22,11 +22,11 @@
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![Image of the whiteboard process for Queues](Code_Challenge_10_%20Queues.png))
+![Image of the whiteboard process for Queues](python/stacks_and_queues/Code_Challenge_10_Queues.png)
 
 [Link to Figma Board of image above for queues](https://www.figma.com/board/mLQ7CaCvtMPdlHjo5ZWVYZ/Code-Challenge-10%3A-Queues?node-id=0-1&t=23nMnN8z3lmMauEp-1)
 
-![Image of whiteboard process for Stacks](Code_Challenge_10_%20Stacks.png)
+![Image of whiteboard process for Stacks](python/stacks_and_queues/Code_Challenge_10_Stacks.png)
 
 [Link to Figma board of image above for stacks](https://www.figma.com/board/nQCtrHby7UWVY1O1mv1X4y/Code-Challenge-10%3A-Stacks?node-id=0-1&t=cjuH7GTkct6Ukaat-1)
 
