@@ -43,7 +43,7 @@ class AnimalShelter(Queue):
         # Create a new queue for self.temp2
         self.temp_queue = Queue()
 
-    def dequeue_12(self, pref: str) -> Optional['Animal'] | None | str:
+    def dequeue_12(self, pref: str) -> None | str:
         if self.shelter_queue.head is None:
             return "Animal Shelter queue is empty"
 
