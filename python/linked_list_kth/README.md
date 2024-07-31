@@ -4,7 +4,7 @@
 - argument: a number, `k`, as a parameter, which denotes how far the node is from the tail of the linked list.
 - Return the **node’s value** that is `k` places from the tail of the linked list.
 - You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
-- This will use code from [Linked List Insertions](working-directory/linked_list_insertions/linked_list_insertions.py)
+- This will use code from [Linked List Insertions](python/linked_list_insertions/linked_list_insertions.py)
 
 
 
@@ -47,4 +47,4 @@ Terminal command : python3 -m pytest linked_list_kth/
 ### Code Links
 
 
-[Kth](working-directory/linked_list_kth/linked_list_kth.py)
+[Kth](python/linked_list_kth/linked_list_kth.py)

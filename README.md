@@ -1,14 +1,14 @@
 # Table of Contents
 
-[Array-Reverse Readme](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/array-reverse/README.md)
+[Array-Reverse Readme](python/array-reverse/README.md)
 
-[Array-Shift-Insert Readme](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/insertshiftarray/README.md)
+[Array-Shift-Insert Readme](python/insertshiftarray/README.md)
 
-[Binary-Search](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/array-binary-search/README.md)
+[Binary-Search](python/array-binary-search/README.md)
 
-[Interview 1](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/interview/README.md)
+[Interview 1](python/interview/README.md)
 
-[Linked Lists](https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/blob/b3fd242ad1d3b28517f7a03ebd2b61828ca3666a/working-directory/linked-list/README.md)
+[Linked Lists](python/linked-list/README.md)
 
 [Linked Lists Insertion](python/linked_list_insertions/README.md)
 
@@ -16,6 +16,8 @@
 
 [Linked List Zip](python/linked_list_zip/README.md)
 
-[Stacks and Queues](working-directory%2Fstacks_and_queues%2FREADME.md)
+[Stacks and Queues](python/stacks_and_queues/README.md)
 
 [PseudoQueue](python/pseudo_queue/README.md)
+
+[Animal Shelter](python/stack_queue_animal_shelter/README.md)

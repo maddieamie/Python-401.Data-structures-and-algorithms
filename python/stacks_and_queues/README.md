@@ -54,8 +54,8 @@ Terminal command:  python3 -m pytest
 ### Code Links
 
 
-[Queue](working-directory/stacks_and_queues/queue.py)
-[Stack](working-directory/stacks_and_queues/stack.py)
+[Queue](python/stacks_and_queues/queue.py)
+[Stack](python/stacks_and_queues/stack.py)
 
 
 
