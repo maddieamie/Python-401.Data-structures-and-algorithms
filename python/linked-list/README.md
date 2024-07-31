@@ -39,4 +39,4 @@ Then, I wrote tests to try to make instances of these codes and ran them. When t
 ### Code Links
 
 
-[Linked List](working-directory/linked-list/linked.py)
+[Linked List](python/linked-list/linked.py)

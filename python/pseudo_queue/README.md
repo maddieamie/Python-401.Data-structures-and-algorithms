@@ -13,14 +13,14 @@ _Arguments: value_
 _Arguments: none_
 - Extracts a value from the PseudoQueue, using a first-in, first-out approach.
 
-- _This will use code from [Stack](working-directory/stacks_and_queues/stack.py)_
+- _This will use code from [Stack](python/stacks_and_queues/stack.py)_
 
 
 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![Code Challenge 11: figjam image, link below](working-directory/pseudo_queue/Code_Challenge_11_PseudoQueue.png)
+![Code Challenge 11: figjam image, link below](python/pseudo_queue/Code_Challenge_11_PseudoQueue.png)
 
 [Figjam Link for Code Challenge 11-- to navigate the image embedded above](https://www.figma.com/board/YsUP3rNWVocBgIXKdxUm5J/Code-Challenge-11%3A-PseudoQueue?node-id=0-1&t=zz9qfvBSEYmMJj5V-1)
 

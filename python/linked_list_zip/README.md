@@ -5,7 +5,7 @@
 - Return: New Linked List, zipped as noted below
 - Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the zipped list.
 - Try and keep additional space down to O(1)
-- This will use code from [Linked List Insertions](working-directory/linked_list_insertions/linked_list_insertions.py)
+- This will use code from [Linked List Insertions](python/linked_list_insertions/linked_list_insertions.py)
 
 
 
@@ -38,12 +38,12 @@ Terminal command: python3 -m linked_list_zip.linked_list_zip
 A -> B -> C -> Null
 list4:  1 -> 2 -> 3 -> Null
 1 -> 2 -> 3 -> Null
-zip_lists: A -> 1 -> B -> 2 -> C -> 3 -> Null](working-directory/linked_list_zip/Working_in_if_name_equals_main.png)
+zip_lists: A -> 1 -> B -> 2 -> C -> 3 -> Null](python/linked_list_zip/Working_in_if_name_equals_main.png)
 
 
 Terminal command : python3 -m pytest linked_list_zip/
 
-![Terminal of tests passing: collected 6 items, 6 passed in pytest](working-directory/linked_list_zip/Passing_in_terminal.png)
+![Terminal of tests passing: collected 6 items, 6 passed in pytest](python/linked_list_zip/Passing_in_terminal.png)
 
 ### Code Links
 

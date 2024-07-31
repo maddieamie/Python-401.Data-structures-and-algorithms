@@ -1,19 +1,27 @@
 from stacks_and_queues.queue import Queue
 
-# 800 297 6877
+from typing import Optional
 
-# have the queue that holds the official list, then a temp queue
-# need both an enqueue and dequeue method
-# consider dequeueing the whole object instead
+
+class Animal:
+    def __init__(self, species=str, name=str, _next: Optional['Animal'] = None):
+        self.species = species
+        self.name = name
+        self.next = _next
+
+    def __repr__(self) -> str:
+        return f"{self.species}({self.name})"
+
 
 class AnimalShelter(Queue):
-    def __init_(self, shelter_queue=Queue(), temp_queue=Queue(), reset_queue=Queue()):
-        self.shelter_queue = shelter_queue
-        self.temp_queue = temp_queue
-        self.reset_queue = reset_queue
+    def __init__(self):
+        super().__init__()
+        self.shelter_queue = Queue()
+        self.temp_queue = Queue()
+        print(f"Initialized 1: {self.shelter_queue}, 2: {self.temp_queue}")
 
-    def __repr__(self):
-        node = self.shelter_queue.front
+    def __repr__(self) -> str:
+        node = self.shelter_queue.head
         nodes = []
         while node is not None:
             nodes.append(str(node.data))
@@ -21,34 +29,41 @@ class AnimalShelter(Queue):
         return " -> ".join(nodes)
 
     def __iter__(self):
-        current_node = self.shelter_queue.front
+        current_node = self.shelter_queue.head
         while current_node is not None:
             yield current_node
             current_node = current_node.next
 
-    def enqueue(self, animal: tuple[str, str]) -> None:
+    def enqueue_12(self, animal: Animal) -> None:
+        self.shelter_queue.enqueue(animal)
 
-        node = Animal(animal)
-        if self.head is None:
-            self.head = node
-            self.front = node
-            self.back = node
-            node.next = None
+    def reassign_queues(self):
+        # Reassign self.temp to self.temp2
+        self.shelter_queue = self.temp_queue
+        # Create a new queue for self.temp2
+        self.temp_queue = Queue()
 
-        else:
-            self.back.next = node
-            self.back = node
-            node.next = None
+    def dequeue_12(self, pref: str) -> Animal | None | str:
+        if self.shelter_queue.head is None:
+            return "Animal Shelter queue is empty"
 
+        if pref not in ["cat", "dog"]:
+            return None
 
-class Animal:
-    def __init__(self, species=str, name=str, _next=None):
-        self.species = species
-        self.name = name
-        self.next = _next
+        exit_node = None
 
-    def __repr__(self):
-        return self
+        while self.shelter_queue.head:
+            if pref == self.shelter_queue.head.data.species and exit_node is None:
+                exit_node = self.shelter_queue.dequeue()
+                print('exit node')
+            if self.shelter_queue.head:
+                remaining_node = self.shelter_queue.dequeue()
+                print('remaining node')
+                self.temp_queue.enqueue(remaining_node.data)
+
+        self.reassign_queues()
+
+        return exit_node.data
 
 
 class Dog(Animal):
@@ -63,4 +78,18 @@ class Cat(Animal):
         super().__init__()
         self.species = "cat"
         self.name = ""
+
+
+if __name__ == '__main__':
+    q = AnimalShelter()
+    cat1 = Cat()
+    cat2 = Cat()
+    dog1 = Dog()
+    dog2 = Dog()
+    q.enqueue_12(cat1)
+    q.enqueue_12(cat2)
+    q.enqueue_12(dog1)
+    q.enqueue_12(dog2)
+    q.dequeue_12("dog")
+    print(q)
 

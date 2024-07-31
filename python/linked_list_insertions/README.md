@@ -46,5 +46,5 @@ Terminal command: python3 -m pytest linked_list_insertions/
 ### Code Links
 
 
-[Insertions](working-directory/linked_list_insertions/linked_list_insertions.py)
+[Insertions](python/linked_list_insertions/linked_list_insertions.py)
 

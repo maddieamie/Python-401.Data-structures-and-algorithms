@@ -6,7 +6,7 @@ Write a function called insertShiftArray which takes in an array and a value to 
 ## Whiteboard Process
 <!-- Embedded whiteboard image -->
 
-![Code Challenge 2.png]()<img width="1408" alt="Code Challenge 2" src="https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/assets/118625447/9ee8a750-799d-4b4c-b0a5-545710ead63c">
+<img width="1408" alt="Code Challenge 2" src="https://github.com/maddieamie/Python-401.Data-structures-and-algorithms/assets/118625447/9ee8a750-799d-4b4c-b0a5-545710ead63c">
 
 
 
