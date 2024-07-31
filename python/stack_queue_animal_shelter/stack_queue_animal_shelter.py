@@ -1,6 +1,6 @@
 from stacks_and_queues.queue import Queue
 
-from typing import Optional, Union
+from typing import Optional
 
 
 class Animal:
@@ -43,7 +43,7 @@ class AnimalShelter(Queue):
         # Create a new queue for self.temp2
         self.temp_queue = Queue()
 
-    def dequeue_12(self, pref: str) -> Union['Animal'] | None | str:
+    def dequeue_12(self, pref: str) -> Animal | None | str:
         if self.shelter_queue.head is None:
             return "Animal Shelter queue is empty"
 
