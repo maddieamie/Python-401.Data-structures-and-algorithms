@@ -21,3 +21,5 @@
 [PseudoQueue](python/pseudo_queue/README.md)
 
 [Animal Shelter](python/stack_queue_animal_shelter/README.md)
+
+[Stack Queue Brackets](python/stack_queue_brackets/README.md)
