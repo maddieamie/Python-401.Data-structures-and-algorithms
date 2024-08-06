@@ -23,3 +23,5 @@
 [Animal Shelter](python/stack_queue_animal_shelter/README.md)
 
 [Stack Queue Brackets](python/stack_queue_brackets/README.md)
+
+[Binary Search Tree](python/binary_search_tree/README.md)
