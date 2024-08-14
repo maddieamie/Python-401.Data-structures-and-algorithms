@@ -91,6 +91,32 @@ class BinaryTree(Queue, Stack):
 
         return return_list
 
+    def recursive_pre_order(self, node) -> list:
+
+        if not node:
+            node = self.root
+            # max = node.value
+
+
+        return_list = []
+
+        return_list.append(node.value)
+        # condition
+        # do thing if condition
+
+        if node.left:
+            return_list.extend(self.recursive_pre_order(node.left))
+            # condition
+            # do thing if condition
+        if node.right:
+            return_list.extend(self.recursive_pre_order(node.right))
+            # condition
+            # do thing if condition
+
+        return return_list
+
+
+
     def in_order(self) -> list:
         if not self.root:
             return []
